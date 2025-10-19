@@ -1,0 +1,18 @@
+{
+	"name": "ExchangeJSON",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "polygonLink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "v3/reference/tickers?market=stocks&exchange=XNAS&active=true&limit=1000&apiKey=eMEZhpO5kucC_nuC0E8WrTlwrorBFzwX"
+			}
+		},
+		"schema": {}
+	}
+}

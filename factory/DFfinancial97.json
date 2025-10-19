@@ -1,0 +1,9 @@
+{
+	"name": "DFfinancial97",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2683e90b-c30b-470b-be26-bea29df09ec6",
+		"tenantId": "4461ed59-370c-4582-a40a-b24a7eccdb13"
+	}
+}
